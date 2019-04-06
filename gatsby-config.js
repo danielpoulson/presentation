@@ -3,6 +3,7 @@ module.exports = {
     title: `Slider Template`,
     description: `Slider Template`,
     author: `@gatsbyjs`,
+    path: `${__dirname}`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
