@@ -111,8 +111,8 @@ class IndexPage extends React.Component {
     return (
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-        <h1>Magic Slider</h1>
         <div className="carousel-wrapper">
+          <h1>Magic Slider</h1>
           <div className="carousel">
             <div className={`carousel__div ${this.state.items[0]}`}>
               Image 1

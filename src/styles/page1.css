@@ -1,7 +1,8 @@
 .carousel-wrapper {
+  margin: 0 auto;
   overflow: hidden;
   width: 90%;
-  border: solid 1px;
+  height: 680px;
 }
 
 .carousel-wrapper * {
@@ -28,6 +29,7 @@
   opacity: 1;
   position: relative;
   z-index: 900;
+  background-color: whitesmoke;
 }
 
 .carousel__div.prev,
