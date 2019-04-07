@@ -114,19 +114,19 @@ class IndexPage extends React.Component {
         <h1>Magic Slider</h1>
         <div className="carousel-wrapper">
           <div className="carousel">
-            <div className={`carousel__photo ${this.state.items[0]}`}>
+            <div className={`carousel__div ${this.state.items[0]}`}>
               Image 1
             </div>
-            <div className={`carousel__photo ${this.state.items[1]}`}>
+            <div className={`carousel__div ${this.state.items[1]}`}>
               Image 2
             </div>
-            <div className={`carousel__photo ${this.state.items[2]}`}>
+            <div className={`carousel__div ${this.state.items[2]}`}>
               Image 3
             </div>
-            <div className={`carousel__photo ${this.state.items[3]}`}>
+            <div className={`carousel__div ${this.state.items[3]}`}>
               Image 4
             </div>
-            <div className={`carousel__photo ${this.state.items[4]}`}>
+            <div className={`carousel__div ${this.state.items[4]}`}>
               Image 5
             </div>
 

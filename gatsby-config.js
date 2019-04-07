@@ -2,8 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Slider Template`,
     description: `Slider Template`,
-    author: `@gatsbyjs`,
-    path: `${__dirname}`,
+    author: `@danielp`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

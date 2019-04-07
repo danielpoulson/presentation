@@ -1,6 +1,7 @@
 .carousel-wrapper {
   overflow: hidden;
   width: 90%;
+  border: solid 1px;
 }
 
 .carousel-wrapper * {
@@ -11,7 +12,7 @@
   transform-style: preserve-3d;
 }
 
-.carousel__photo {
+.carousel__div {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -22,21 +23,21 @@
   transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
 }
 
-.carousel__photo.initial,
-.carousel__photo.active {
+.carousel__div.initial,
+.carousel__div.active {
   opacity: 1;
   position: relative;
   z-index: 900;
 }
 
-.carousel__photo.prev,
-.carousel__photo.next {
+.carousel__div.prev,
+.carousel__div.next {
   z-index: 800;
 }
-.carousel__photo.prev {
+.carousel__div.prev {
   transform: translateX(-100%); /* Move 'prev' item to the left */
 }
-.carousel__photo.next {
+.carousel__div.next {
   transform: translateX(100%); /* Move 'next' item to the right */
 }
 
